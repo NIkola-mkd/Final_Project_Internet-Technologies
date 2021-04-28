@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="/styles/signup.css" />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css"
+    />
+    <title>SEEU Students</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="avatar">
+        <i class="fas fa-user-graduate"></i>
+      </div>
+      <form action="#" method="POST" id="sign">
+        <div class="name">
+          <input
+            type="text"
+            name="name"
+            id="fname"
+            placeholder="First Name"
+            required
+          />
+        </div>
+        <div class="lName">
+          <input
+            type="text"
+            name="name"
+            id="lname"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <div class="mail">
+          <input
+            type="email"
+            id="email"
+            pattern=".+@seeu.edu.mk"
+            required
+            placeholder="usernameID@seeu.edu.mk"
+          />
+        </div>
+        <div class="pass">
+          <input type="password" placeholder="Create Password" required />
+        </div>
+        <div class="faculty">
+          <select id="faculties" name="faculties">
+            <option value="f1">Faculty of Business and Economics</option>
+            <option value="f2">
+              Faculty of Languages, Cultures and Communication
+            </option>
+            <option value="f3">
+              Faculty of Contemporary Sciences and Technologies
+            </option>
+            <option value="f4">Faculty of Contemporary Social Sciences</option>
+          </select>
+        </div>
+        <div class="sub">
+          <button type="submit" form="sign" value="Submit">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

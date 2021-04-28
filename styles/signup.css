@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/images/campus.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+input {
+  width: 50%;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+select {
+  height: 50px;
+  font-weight: bold;
+}
+.form-container {
+  margin-top: 10%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 50px;
+  background-color: rgb(215, 222, 223);
+  opacity: 0.95;
+  width: 50%;
+  border-radius: 55px;
+  padding-top: 20px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+#faculties {
+  font-weight: bold;
+  font-size: 20px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(147, 206, 224);
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.fas {
+  color: rgb(7, 54, 54);
+}
+
+@media (max-width: 778px) {
+  body {
+    background-image: url("/images/campus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .form-container {
+    width: 100%;
+  }
+  select {
+    height: 30px;
+    width: 350px;
+    font-weight: bold;
+  }
+  button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 478px) {
+  body {
+    background-image: url("/images/campus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .form-container {
+    width: 100%;
+  }
+  select {
+    height: 30px;
+    width: 250px;
+    font-weight: bold;
+  }
+  button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+  }
+  #faculties {
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
