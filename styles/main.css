@@ -3,9 +3,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #e6f4ff;
-  font-family: Georgia, "Times New Roman", Times, serif Verdana, Geneva, Tahoma,
-    sans-serif;
+  background-color: #e4fbff;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
 }
 .header-container {
   padding-top: 20px;
@@ -13,7 +12,7 @@ body {
 header {
   background: rgb(5, 52, 61);
   color: white;
-  background-image: url("/images/header_template.jpg");
+  background-image: url("../images/header_template.jpg");
 }
 h1 {
   text-align: center;
@@ -156,6 +155,7 @@ input {
   min-height: 250px;
 }
 .post-image {
+  padding-top: 10px;
   float: left;
   width: 25%;
   box-sizing: border-box;
@@ -164,6 +164,7 @@ input {
   max-width: 100%;
 }
 .text-content {
+  padding-top: 10px;
   padding-left: 10px;
   width: 75%;
   float: left;
@@ -354,7 +355,7 @@ footer {
 }
 
 /* Mobile  */
-@media (max-width: 675px) {
+@media (max-width: 425px) {
   sup {
     font-size: 35px;
   }

@@ -10,7 +10,7 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-image: url("/images/campus-2.jpg");
+  background-image: url("../images/campus-2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,7 +89,7 @@ input {
   background-color: rgb(59, 88, 88);
 }
 
-@media (max-width: 687px) {
+@media (max-width: 768px) {
   #main-holder {
     width: 100%;
   }

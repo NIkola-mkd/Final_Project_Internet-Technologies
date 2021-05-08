@@ -19,7 +19,6 @@
     <title>SEEU Students</title>
   </head>
   <body>
-    <!-- Header -->
     <header>
       <div class="header-container">
         <h1>
@@ -31,19 +30,20 @@
     </header>
     <!--Navigation Menu-->
     <nav id="menu">
-      <input type="checkbox" id="responsive-menu" onclick="updateMenu()" />
+      <input type="checkbox" id="responsive-menu" onclick=" updateMenu()" />
       <label></label>
+      <!-- Header -->
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="menu/signup.html">Sign Up</a></li>
         <li><a href="menu/login.html">Login</a></li>
-        <li><a href="#">About This Blog</a></li>
+        <li><a href="menu/about.html">About This Blog</a></li>
         <li>
           <a class="dropdown-arrow" href="#">Admin</a>
           <ul class="sub-menus">
             <li><a href="#">Content</a></li>
             <li>
-              <a href="#">Logout</a>
+              <a href="#" onclick="logOut()">Logout</a>
             </li>
           </ul>
         </li>
@@ -257,6 +257,7 @@
       </div>
     </footer>
     <!-- Scripts -->
-    <script type="text/js" src="scripts/nav_menu.js"></script>
+    <script type="text/javascript" src="scripts/nav_menu.js"></script>
+    <script type="text/javascript" src="scripts/logout.js"></script>
   </body>
 </html>
