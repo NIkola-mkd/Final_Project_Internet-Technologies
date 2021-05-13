@@ -10,5 +10,5 @@ This project is only a front-end solution according to the specifications.
 - Techniques used:
 1) HTML5
 2) CSS3
-3) JavaSript ES6
+3) JavaScript ES6
 
